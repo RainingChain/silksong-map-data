@@ -102,7 +102,7 @@
       [[-720.4,110.61],[-706.4,190.01]],
       [[-786.48,753.57],[-786.38,761.57]],
       [[-642.11,842.96],[-612.52,784.67]],
-      [[-573.82,996.35],[-556.13,1005.55]],
+      [[-556.52,1003.53],[-565.45,1023.69]],
       [[-617.02,1042.45],[-608.32,1042.65]],
       [[-648.51,1138.24],[-672.41,1097.75]],
       [[-725.6,966.46],[-710.5,976.16]],
@@ -3859,6 +3859,11 @@
   {"pos":[-19.45,729.13],"name":"Ability - Pale Nail","iconUrl":"","flag":"","uid":698}
   ]},
   {"id":"tool","name":"Tools", "group":"abilityitems", "iconUrl":"toolblue.png", "list":[
+{"pos":[-393.07,676.26],"name":"Scuttlebrace","iconUrl":"toolyellow.png","flag":""},
+{"pos":[-394.09,676.28],"name":"Cogwork Wheel","iconUrl":"toolred.png","flag":""},
+{"pos":[-306.57,749.78],"name":"Claw Mirror","iconUrl":"toolblue.png","flag":""},
+{"pos":[-306.02,749.78],"name":"Dark Mirror","iconUrl":"toolblue.png","flag":""},
+{"pos":[-393.61,676.27],"name":"Sawtooth Circlet","iconUrl":"toolblue.png","flag":""},
   {"pos":[-668.81,551.18],"name":"Tool - Straight Pin","iconUrl":"toolred.png","uid":85,"flag":"@tool,Straight Pin"},
   {"pos":[-521.95,1014.09],"name":"Tool - Threefold Pin","iconUrl":"toolred.png","uid":86,"flag":"@Tool,Tri Pin"},
   {"pos":[-723.6,706.17],"name":"Tool - Sting Shard","iconUrl":"toolred.png","uid":87,"flag":""},
@@ -3909,6 +3914,8 @@
   {"pos":[-379.47,668.69],"name":"Crest of Architect","iconUrl":"upgrade.png","flag":"","uid":699}
   ]},
   {"id":"key","name":"Keys", "group":"abilityitems", "iconUrl":"items.png", "list":[
+  {"pos":[-235.3,805.94],"name":"White Key","iconUrl":"simplekey.png","flag":""},
+  {"pos":[-392.49,676.26],"name":"Architect's Key","iconUrl":"items.png","flag":""},
   {"pos":[-697.5,289.4],"name":"Simple Key","iconUrl":"simplekey.png","uid":124,"flag":"@,playerData.PurchasedBonebottomFaithToken,true"},
   {"pos":[-776.99,752.57],"name":"Diving Bell Key","iconUrl":"items.png","uid":125,"flag":""},
   {"pos":[-420.45,929.36],"name":"Simple Key","iconUrl":"simplekey.png","uid":126,"flag":"@,playerData.CollectedDustCageKey,True"},
@@ -3937,6 +3944,9 @@
   {"pos":[-131.71,242.16],"name":"Mask Shard #20","iconUrl":"mask.png","flag":"","uid":705}
   ]},
   {"id":"spool","name":"Spool Shards", "group":"upgrades", "iconUrl":"spool.png", "list":[
+{"pos":[-293.64,687.59],"name":"Spool Fragment","iconUrl":"spool.png","flag":""},
+{"pos":[-367.16,405.88],"name":"Spool Fragment","iconUrl":"spool.png","flag":""},
+{"pos":[-437.34,719.69],"name":"Spool Fragment","iconUrl":"spool.png","flag":""},
   {"pos":[-744.19,295.4],"name":"Spool Fragment #1","iconUrl":"spool.png","uid":147,"flag":"@bool,Weave_11,Silk Spool,true"},
   {"pos":[-670.61,305.2],"name":"Spool Fragment #2","iconUrl":"spool.png","uid":148,"flag":"@bool,Bone_11b,Silk Spool,true"},
   {"pos":[-744.99,677.38],"name":"Spool Fragment #3","iconUrl":"spool.png","uid":149,"flag":"@bool,Bone_East_13,Silk Spool,true"},
@@ -3947,6 +3957,7 @@
   {"pos":[-411.65,334],"name":"Spool Fragment #8","iconUrl":"spool.png","uid":154,"flag":""}
   ]},
   {"id":"locket","name":"Memory Lockets", "group":"upgrades", "iconUrl":"locket.png", "list":[
+{"pos":[-265.25,863],"name":"Memory Locket","iconUrl":"locket.png","flag":""},
   {"pos":[-669.41,118.01],"name":"Memory Locket #1","iconUrl":"locket.png","uid":155,"flag":""},
   {"pos":[-694.6,293.4],"name":"Memory Locket #2","iconUrl":"locket.png","uid":156,"flag":""},
   {"pos":[-625.01,433.59],"name":"Memory Locket #3","iconUrl":"locket.png","uid":157,"flag":"@bool,Bone_18,Collectable Item Pickup,true"},
@@ -3971,7 +3982,7 @@
   {"pos":[-721.8,706.17],"name":"Crafting Kit Upgrade #1","iconUrl":"upgrade.png","uid":170,"flag":""},
   {"pos":[-583.62,542.18],"name":"Crafting Kit Upgrade #2","iconUrl":"upgrade.png","uid":171,"flag":""},
   {"pos":[-419.85,179.21],"name":"Crafting Kit Upgrade #3","iconUrl":"upgrade.png","uid":172,"flag":""},
-  {"pos":[-395.75,6760],"name":"Crafting Kit Upgrade","iconUrl":"","flag":"","uid":708}
+  {"pos":[-395.75,676.28],"name":"Crafting Kit Upgrade","iconUrl":"","flag":"","uid":708}
   ]},
   {"id":"pouch","name":"Tool Pouches", "group":"upgrades", "iconUrl":"upgrade.png", "list":[
   {"pos":[-677.2,544.58],"name":"Tool Pouch Upgrade #1","iconUrl":"upgrade.png","uid":173,"flag":"@pouch,1"},
@@ -3979,14 +3990,23 @@
   {"pos":[-550.03,756.97],"name":"Tool Pouch Upgrade #3","iconUrl":"upgrade.png","uid":175,"flag":""}
   ]},
   {"id":"upgnail","name":"Pale Oils", "group":"upgrades", "iconUrl":"upgrade.png", "list":[
+  {"pos":[-267.92,727.31],"name":"Pale Oil","iconUrl":"items.png","flag":""},
+  {"pos":[-268.55,611.89],"name":"Pale Oil","iconUrl":"items.png","flag":""},
   {"pos":[-573.62,561.98],"name":"Nail Upgrade #1","iconUrl":"upgrade.png","uid":176,"flag":"@nail,1"}
   ]},
   {"id":"craftmetal","name":"Craftmetals", "group":"upgrades", "iconUrl":"items.png", "list":[
+{"pos":[-431.46,647.7],"name":"Craftmetal","iconUrl":"items.png","flag":""},
   {"pos":[-697.5,289.4],"name":"Craftmetal #1","iconUrl":"items.png","uid":128,"flag":"@,playerData.PurchasedBonebottomToolMeta"},
   {"pos":[-661.01,498.39],"name":"Craftmetal #2","iconUrl":"items.png","uid":129,"flag":"@bool,Bone_07,Collectable Item Pickup - Tool Metal,true"},
   {"pos":[-732.79,804.37],"name":"Craftmetal #3","iconUrl":"items.png","uid":130,"flag":"@bool,Dock_03,Collectable Item Pickup,true"},
   {"pos":[-453.65,621.58],"name":"Craftmetal #4","iconUrl":"items.png","uid":131,"flag":""},
   {"pos":[-443.45,290.4],"name":"Craftmetal #5","iconUrl":"items.png","uid":132,"flag":""}
+  ]},
+  {"id":"misc","name":"misc", "group":"upgrades", "iconUrl":"items.png", "list":[
+    {"pos":[-274.35,830.34],"name":"Vaultkeeper's Melody","iconUrl":"upgrade.png","flag":""},
+    {"pos":[-140.64,647.19],"name":"Architect's Melody","iconUrl":"upgrade.png","flag":""},
+    {"pos":[-296.04,778.38],"name":"Red Quill","iconUrl":"items.png","flag":""},
+    {"pos":[-295.54,778.38],"name":"Purple Quill","iconUrl":"items.png","flag":""}
   ]},
   {"id":"rosaryitem","name":"Rosary Strings", "group":"currency", "iconUrl":"rosarystring.png","list":[
   {"pos":[-743.39,251.3],"name":"Frayed Rosary String","iconUrl":"rosarystring.png","uid":184,"flag":"@bool,Tut_01,Collectable Item Pickup,true"},
@@ -4011,9 +4031,23 @@
   {"pos":[-534.43,458.99],"name":"Rosary String","iconUrl":"rosarystring.png","uid":202,"flag":"@bool,Shellwood_01b,Collectable Item Pickup,true"},
   {"pos":[-579.32,273],"name":"Rosary String Dispenser","iconUrl":"rosarystring_machine.png","uid":203,"flag":""},
   {"pos":[-520.63,251.8],"name":"Frayed Rosary String","iconUrl":"rosarystring.png","uid":204,"flag":"@bool,Coral_03,Collectable Item Pickup,true"},
+{"pos":[-304.09,537.55],"name":"Rosary String","iconUrl":"rosarystring.png","flag":""},
+{"pos":[-285.82,485.5],"name":"Heavy Rosary Necklace","iconUrl":"rosarystring.png","flag":""},
   {"pos":[-351.76,951.56],"name":"Frayed Rosary String","iconUrl":"rosarystring.png","uid":205,"flag":""}
   ]},
   {"id":"rosary","name":"Rosary Deposit", "group":"currency", "iconUrl":"rosary.png","list":[
+{"pos":[-213.55,501.03],"name":"Rosary Chest","iconUrl":"rosary.png","flag":""},
+{"pos":[-240.63,570.3],"name":"Rosaries","iconUrl":"rosary.png","flag":""},
+{"pos":[-249.9,510.63],"name":"Rosaries","iconUrl":"rosary.png","flag":""},
+{"pos":[-260.58,581.66],"name":"Rosary String","iconUrl":"rosarystring.png","flag":""},
+{"pos":[-264.99,864.25],"name":"Rosaries","iconUrl":"rosary.png","flag":""},
+{"pos":[-280.14,559.45],"name":"Rosaries","iconUrl":"rosary.png","flag":""},
+{"pos":[-283.69,856.47],"name":"Rosaries","iconUrl":"rosary.png","flag":""},
+{"pos":[-303.69,452.3],"name":"Rosaries","iconUrl":"rosary.png","flag":""},
+{"pos":[-304.09,537.55],"name":"Rosary String","iconUrl":"rosarystring.png","flag":""},
+{"pos":[-314.96,488.29],"name":"Rosary Chest","iconUrl":"rosary.png","flag":""},
+{"pos":[-331.57,472.2],"name":"Rosaries","iconUrl":"rosary.png","flag":""}, 
+
   {"pos":[-702.8,120.81],"name":"Rosaries","iconUrl":"rosary.png","uid":206,"flag":"@bool,Bonegrave,grave_marker_break_grey (2),true"},
   {"pos":[-673.2,240.2],"name":"Rosaries","iconUrl":"rosary.png","uid":207,"flag":"@int,Bonetown,rosary_shrine_small,2"},
   {"pos":[-546.99,976.53],"name":"Rosaries","iconUrl":"rosary.png","flag":"@bool,Greymoor_15b,Craw_home_right,true","uid":810},
@@ -4124,6 +4158,7 @@
   {"pos":[-645.11,308.4],"name":"Rosaries","iconUrl":"rosary.png","flag":"@bool,Mosstown_01,Geo Small Persistent (2),true","uid":631}
   ]},
   {"id":"sharditem","name":"Shard Bundles", "group":"currency", "iconUrl":"shardbundle.png", "list":[
+{"pos":[-412.85,658.2],"name":"Shard Bundle","iconUrl":"shardbundle.png","flag":""},
   {"pos":[-641.91,196.81],"name":"Beast Shard","iconUrl":"shardbundle.png","uid":292,"flag":""},
   {"pos":[-697.3,294.6],"name":"Hornet Statuette","iconUrl":"shardbundle.png","uid":293,"flag":""},
   {"pos":[-744.79,273.8],"name":"Beast Shard","iconUrl":"shardbundle.png","uid":294,"flag":"@bool,Tut_01,Bone Thumper,true"},
@@ -4140,6 +4175,9 @@
   {"pos":[-415.25,210.21],"name":"Beast Shard","iconUrl":"shardbundle.png","uid":304,"flag":""}
   ]},
   {"id":"shard","name":"Shard Deposit", "group":"currency", "iconUrl":"shards.png", "list":[
+{"pos":[-339.58,457.09],"name":"Shell Shards","iconUrl":"shards.png","flag":""},
+{"pos":[-302.37,731.22],"name":"Shell Shards","iconUrl":"shards.png","flag":""},
+{"pos":[-404.96,720.2],"name":"Shell Shards","iconUrl":"shards.png","flag":""},
   {"pos":[-737.59,179.71],"name":"Shell Shards","iconUrl":"shards.png","uid":305,"flag":""},
   {"pos":[-747.59,265.4],"name":"Shell Shards","iconUrl":"shards.png","uid":306,"flag":"@int,Tut_01,Shell Shard Fossil Large Uni,0"},
   {"pos":[-733.79,276.5],"name":"Shell Shards","iconUrl":"shards.png","uid":307,"flag":"@int,Tut_01b,Shell Shard Fossil Mid (1),0"},
@@ -4182,6 +4220,9 @@
   {"pos":[-498.52,368.25],"name":"Shell Shards","iconUrl":"shards.png","flag":"","uid":815}
   ]},
   {"id":"flea","name":"Lost Fleas", "group":"collectibles", "iconUrl":"lostFlea.png", "list":[
+{"pos":[-256.24,789.77],"name":"Flea","iconUrl":"lostFlea.png","flag":""},
+{"pos":[-257.31,789.8],"name":"Lost Flea","iconUrl":"lostFlea.png","flag":""},
+
   {"pos":[-635.01,194.01],"name":"Lost Flea #1","iconUrl":"lostFlea.png","uid":341,"flag":"@,playerData.SavedFlea_Crawl_06,true"},
   {"pos":[-624.21,415.99],"name":"Lost Flea #2","iconUrl":"lostFlea.png","uid":342,"flag":"@,playerData.SavedFlea_Bone_06"},
   {"pos":[-567.42,370.8],"name":"Lost Flea #3","iconUrl":"lostFlea.png","uid":343,"flag":"@,playerData.SavedFlea_Shellwood_03,true"},
@@ -4221,6 +4262,8 @@
   {"pos":[-751.39,1127.15],"name":"Relic - Rune Harp #2","iconUrl":"relics.png","uid":366,"flag":"@relic,Weaver Record Sprint_Challenge"}
   ]},
   {"id":"psalm","name":"Psalm Cylinders", "group":"collectibles", "iconUrl":"psalm.png", "list":[
+{"pos":[-264.96,857.06],"name":"Psalm Cylinder","iconUrl":"psalm.png","flag":""},
+{"pos":[-322.74,827.58],"name":"Sacred Cylinder","iconUrl":"psalm.png","flag":""},
   {"pos":[-419.25,179.21],"name":"Psalm Cylinder #1","iconUrl":"psalm.png","uid":367,"flag":""}
   ]},
   {"id":"memento","name":"Mementos", "group":"collectibles", "iconUrl":"collectibles.png", "list":[
@@ -4234,9 +4277,16 @@
   {"pos":[-488.24,976.16],"name":"Silkeater #2","iconUrl":"items.png","uid":373,"flag":"@,playerData.farmer_grubGrown_1,False"},
   {"pos":[-496.64,726.77],"name":"Silkeater #3","iconUrl":"items.png","uid":374,"flag":"@bool,Greymoor_04,Silk Grub Large Cocoon,true"},
   {"pos":[-387.66,823.87],"name":"Silkeater #4","iconUrl":"items.png","uid":375,"flag":""},
+{"pos":[-257.24,842.44],"name":"Silkeater","iconUrl":"items.png","flag":""},
+{"pos":[-267.04,627.05],"name":"Silkeater","iconUrl":"items.png","flag":""},
   {"pos":[-485.84,304.2],"name":"Silkeater #5","iconUrl":"items.png","uid":376,"flag":"@bool,Coral_37,Silk Grub Large Cocoon,true"}
   ]},
   {"id":"npc","name":"NPCs", "group":"npcwish", "iconUrl":"npc.png", "list":[
+{"pos":[-269.43,610.53],"name":"Loyal Mergwin","iconUrl":"npc.png","flag":""},
+{"pos":[-287.71,527.86],"name":"Sherma","iconUrl":"npc.png","flag":""},
+{"pos":[-279.01,523.2],"name":"Garmond And Zaza","iconUrl":"npc.png","flag":""},
+{"pos":[-244.95,480.34],"name":"Grindle","iconUrl":"npc.png","flag":""},
+
   {"pos":[-712.2,66.22],"name":"NPC - Sula","iconUrl":"npc.png","uid":377,"flag":""},
   {"pos":[-723,127.01],"name":"NPC - Snail Shamans","iconUrl":"npc.png","uid":378,"flag":""},
   {"pos":[-697.6,208.01],"name":"NPC - Chapel Maid","iconUrl":"npc.png","uid":379,"flag":""},
@@ -4314,6 +4364,8 @@
   {"pos":[-412.65,334],"name":"NPC - Flea Caravan","iconUrl":"npc.png","uid":451,"flag":""}
   ]},
   {"id":"vendor","name":"Vendors", "group":"npcwish", "iconUrl":"vendor.png", "list":[
+{"pos":[-395.1,676.29],"name":"Vendor - Twelfth Architect","iconUrl":"vendor.png","flag":""},
+{"pos":[-273.68,830.34],"name":"Vendor - Vaultkeeper Cardinius","iconUrl":"vendor.png","flag":""},
   {"pos":[-698.2,289.4],"name":"Vendor - Pebb","iconUrl":"vendor.png","uid":452,"flag":""},
   {"pos":[-585.62,544.18],"name":"Vendor - Frey","iconUrl":"vendor.png","uid":453,"flag":""},
   {"pos":[-617.82,705.37],"name":"Vendor - Mottled Skarr","iconUrl":"vendor.png","uid":454,"flag":""},
@@ -4321,6 +4373,8 @@
   {"pos":[-670.01,907.96],"name":"Vendor - Mort","iconUrl":"vendor.png","uid":456,"flag":""}
   ]},
   {"id":"wish","name":"Wishes", "group":"npcwish", "iconUrl":"wish.png", "list":[
+{"pos":[-269.43,609.96],"name":"Great Taste of Pharloom","iconUrl":"wish.png","flag":""},
+
   {"pos":[-696.4,292.8],"name":"Wish - Bone Bottom Repairs","iconUrl":"wish.png","uid":457,"flag":"@wish,Building Materials"},
   {"pos":[-696.4,292.8],"name":"Wish - Garb of the Pilgrims","iconUrl":"wish.png","uid":458,"flag":"@wish,Pilgrim Rags"},
   {"pos":[-696.4,292.8],"name":"Wish - A Lifesaving Bridge","iconUrl":"wish.png","uid":459,"flag":"@wish,Building Materials (Bridge)"},
@@ -4357,6 +4411,8 @@
   {"pos":[-487.04,319.8],"name":"Wish - A Vassal Lost","iconUrl":"wish.png","uid":490,"flag":""}
   ]},
   {"id":"questitem","name":"Quest Items", "group":"npcwish", "iconUrl":"items.png", "list":[
+  {"pos":[-255.57,486.13],"name":"Quest Item - Cogheart Piece","iconUrl":"items.png","flag":""},
+  {"pos":[-311.19,787.5],"name":"Quest Item - Cogheart Piece","iconUrl":"items.png","flag":""},
   {"pos":[-660.81,76.02],"name":"Quest Item - Plasmium #1","iconUrl":"items.png","uid":491,"flag":""},
   {"pos":[-662.81,156.21],"name":"Quest Item - Plasmium #2","iconUrl":"items.png","uid":492,"flag":""},
   {"pos":[-628.41,135.21],"name":"Quest Item - Plasmium #3","iconUrl":"items.png","uid":493,"flag":"@bool,Crawl_03,pustule_set_small (1),true"},
@@ -4404,6 +4460,9 @@
   {"pos":[-607.22,1053.35],"name":"Quest Item - Hunter's Heart","iconUrl":"items.png","uid":535,"flag":""}
   ]},
   {"id":"boss","name":"Bosses", "group":"battles", "iconUrl":"boss.png", "list":[
+{"pos":[-228.52,646.14],"name":"Cogwork Dancers","iconUrl":"boss.png","flag":""},
+{"pos":[-307.23,749.78],"name":"Trobbio","iconUrl":"boss.png","flag":""},
+{"pos":[-307.23,750.48],"name":"Tormented Trobbio","iconUrl":"boss.png","flag":""},
   {"pos":[-422.25,179.21],"name":"Boss - Grindle","iconUrl":"boss.png","uid":536,"flag":""},
   {"pos":[-705.8,207.21],"name":"Boss - Moss Mother","iconUrl":"boss.png","uid":537,"flag":"@,playerData.defeatedMossMother"},
   {"pos":[-756.59,211.61],"name":"Boss - Moss Mothers","iconUrl":"boss.png","uid":538,"flag":"@bool,Weave_03,Boss Scene,true"},
@@ -4435,6 +4494,12 @@
   {"pos":[-567.77,326.44],"name":"Mini-Boss - Rosary Pilgrim","iconUrl":"boss.png","flag":"@,playerData.defeatedShellwoodRosaryPilgrim,true","uid":816}
   ]},
   {"id":"arena","name":"Arenas", "group":"battles", "iconUrl":"arena.png", "list":[
+    {"pos":[-239.77,753.31],"name":"Battle - ???","iconUrl":"arena.png","flag":""},
+{"pos":[-254.04,604.25],"name":"Battle - ???","iconUrl":"arena.png","flag":""},
+{"pos":[-272.63,671.56],"name":"Battle - ???","iconUrl":"arena.png","flag":"","acts":[3]},
+{"pos":[-297.86,459.81],"name":"Battle - ???","iconUrl":"arena.png","flag":""},
+{"pos":[-410.91,691.48],"name":"Battle - ???","iconUrl":"arena.png","flag":""},
+
   {"pos":[-694,78.42],"name":"Battle - Wanderer's Chapel","iconUrl":"arena.png","uid":562,"flag":"@bool,Chapel_Wanderer,Battle Scene,true"},
   {"pos":[-695.4,357.6],"name":"Battle - Marrow #1","iconUrl":"arena.png","uid":563,"flag":"@bool,Bone_01,Collapser Small (1),true"},
   {"pos":[-623.61,431.99],"name":"Battle - Marrow #2","iconUrl":"arena.png","uid":564,"flag":"@bool,Bone_18,Battle Scene,true"},

@@ -3576,7 +3576,7 @@
   {"pos":[-702.2,908.56],"name":"Bench","iconUrl":"bench.png","uid":21,"flag":"@bool,Bellway_03,bell_toll_machine,true"},
   {"pos":[-710.8,979.36],"name":"Bench","iconUrl":"bench.png","uid":22,"flag":""},
   {"pos":[-739.59,1122.35],"name":"Bench","iconUrl":"bench.png","uid":23,"flag":""},
-  {"pos":[-602.22,1007.55],"name":"Bench","iconUrl":"bench.png","uid":24,"flag":""},
+  {"pos":[-602.35,1005.52],"name":"Bench","iconUrl":"bench.png","uid":24,"flag":""},
   {"pos":[-554.83,764.97],"name":"Bench","iconUrl":"bench.png","uid":25,"flag":""},
   {"pos":[-543.83,911.16],"name":"Bench","iconUrl":"bench.png","uid":26,"flag":"@,playerData.bellShrineGreymoor,true"},
   {"pos":[-556.83,930.76],"name":"Bench [Temporary]","iconUrl":"bench.png","uid":27,"flag":""},
@@ -4265,7 +4265,7 @@
   {"id":"memento","name":"Mementos", "group":"collectibles", "iconUrl":"collectibles.png", "list":[
   {"pos":[-548.83,756.97],"name":"Memento - Hunter's Memento","iconUrl":"collectibles.png","uid":368,"flag":""},
   {"pos":[-677.3,1121.95],"name":"Memento - Sprintmaster Memento","iconUrl":"collectibles.png","uid":369,"flag":""},
-  {"pos":[-608.42,1008.95],"name":"Memento - Craw Memento","iconUrl":"collectibles.png","uid":370,"flag":""},
+  {"pos":[-602.39,1032.72],"name":"Memento - Craw Memento","iconUrl":"collectibles.png","uid":370,"flag":""},
   {"pos":[-447.45,145.41],"name":"Memento - Hero's Memento","iconUrl":"collectibles.png","uid":371,"flag":""}
   ]},
   {"id":"silkeater","name":"Silkeaters", "group":"collectibles", "iconUrl":"items.png", "list":[
@@ -4278,10 +4278,10 @@
   {"pos":[-485.84,304.2],"name":"Silkeater #5","iconUrl":"items.png","uid":376,"flag":"@bool,Coral_37,Silk Grub Large Cocoon,true"}
   ]},
   {"id":"npc","name":"NPCs", "group":"npcwish", "iconUrl":"npc.png", "list":[
-  {"pos":[-269.43,610.53],"name":"Loyal Mergwin","iconUrl":"npc.png","flag":"","uid":936},
-  {"pos":[-287.71,527.86],"name":"Sherma","iconUrl":"npc.png","flag":"","uid":937},
-  {"pos":[-279.01,523.2],"name":"Garmond And Zaza","iconUrl":"npc.png","flag":"","uid":938},
-  {"pos":[-244.95,480.34],"name":"Grindle","iconUrl":"npc.png","flag":"","uid":939},
+  {"pos":[-269.43,610.53],"name":"NPC - Loyal Mergwin","iconUrl":"npc.png","flag":"","uid":936},
+  {"pos":[-287.71,527.86],"name":"NPC - Sherma","iconUrl":"npc.png","flag":"","uid":937},
+  {"pos":[-279.01,523.2],"name":"NPC - Garmond And Zaza","iconUrl":"npc.png","flag":"","uid":938},
+  {"pos":[-244.95,480.34],"name":"NPC - Grindle","iconUrl":"npc.png","flag":"","uid":939},
   {"pos":[-712.2,66.22],"name":"NPC - Sula","iconUrl":"npc.png","uid":377,"flag":""},
   {"pos":[-723,127.01],"name":"NPC - Snail Shamans","iconUrl":"npc.png","uid":378,"flag":""},
   {"pos":[-697.6,208.01],"name":"NPC - Chapel Maid","iconUrl":"npc.png","uid":379,"flag":""},
@@ -4454,10 +4454,24 @@
   {"pos":[-607.22,1053.35],"name":"Quest Item - Hunter's Heart","iconUrl":"items.png","uid":535,"flag":""}
   ]},
   {"id":"boss","name":"Bosses", "group":"battles", "iconUrl":"boss.png", "list":[
-  {"pos":[-228.52,646.14],"name":"Cogwork Dancers","iconUrl":"boss.png","flag":"","uid":945},
-  {"pos":[-307.23,749.78],"name":"Trobbio","iconUrl":"boss.png","flag":"","uid":946},
-  {"pos":[-307.23,750.48],"name":"Tormented Trobbio","iconUrl":"boss.png","flag":"","uid":947},
-  {"pos":[-422.25,179.21],"name":"Boss - Grindle","iconUrl":"boss.png","uid":536,"flag":""},
+  {"pos":[-736.74,227.31],"name":"Boss - Moss Mother (voided, act 3)","iconUrl":"boss.png","flag":"","acts":[3],"uid":953},
+  {"pos":[-928.67,642.13],"name":"Boss - Lost Lace","iconUrl":"boss.png","flag":"","uid":954},
+  {"pos":[-473.44,1105.94],"name":"Boss - Palestag","iconUrl":"boss.png","flag":"","uid":955},
+  {"pos":[-452.95,1171.39],"name":"Boss - Clover Dancers","iconUrl":"boss.png","flag":"","uid":956},
+  {"pos":[-372.53,547],"name":"Boss - The Unraveled","iconUrl":"boss.png","flag":"","uid":957},
+  {"pos":[-204.14,614.41],"name":"Boss - Second Sentinel","iconUrl":"boss.png","flag":"","uid":958},
+  {"pos":[-177.69,275.44],"name":"Boss - Pinstress","iconUrl":"boss.png","flag":"","uid":959},
+  {"pos":[-313.52,394.5],"name":"Boss - First Sinner","iconUrl":"boss.png","flag":"","uid":960},
+  {"pos":[-226.37,313.19],"name":"Boss - Broodmother","iconUrl":"boss.png","flag":"","uid":961},
+  {"pos":[-314.01,141.69],"name":"Boss - Voltvyrm","iconUrl":"boss.png","flag":"","uid":962},
+  {"pos":[-336.14,121.97],"name":"Boss - Raging Vonchfly","iconUrl":"boss.png","flag":"","uid":963},
+  {"pos":[-388.77,74.75],"name":"Boss - Watcher at the Edge","iconUrl":"boss.png","flag":"","uid":964},
+  {"pos":[-345.41,117.69],"name":"Boss - Crust King Khann","iconUrl":"boss.png","flag":"","uid":965},
+  {"pos":[-114.46,646.19],"name":"Boss - Lace II","iconUrl":"boss.png","flag":"","uid":966},
+  {"pos":[-45.45,647.31],"name":"Boss - Grand Mother Silk","iconUrl":"boss.png","flag":"","uid":967},
+  {"pos":[-228.52,646.14],"name":"Boss - Cogwork Dancers","iconUrl":"boss.png","flag":"","uid":945},
+  {"pos":[-307.23,749.78],"name":"Boss - Trobbio","iconUrl":"boss.png","flag":"","uid":946},
+  {"pos":[-307.23,750.48],"name":"Boss - Tormented Trobbio","iconUrl":"boss.png","flag":"","uid":947},
   {"pos":[-705.8,207.21],"name":"Boss - Moss Mother","iconUrl":"boss.png","uid":537,"flag":"@,playerData.defeatedMossMother"},
   {"pos":[-756.59,211.61],"name":"Boss - Moss Mothers","iconUrl":"boss.png","uid":538,"flag":"@bool,Weave_03,Boss Scene,true"},
   {"pos":[-710.2,67.82],"name":"Boss - Summoned Savior","iconUrl":"boss.png","uid":539,"flag":""},
@@ -4472,7 +4486,7 @@
   {"pos":[-731.19,921.56],"name":"Boss - Savage Beastfly II","iconUrl":"boss.png","uid":548,"flag":""},
   {"pos":[-678.4,1082.75],"name":"Boss - Gurr the Outcast","iconUrl":"boss.png","uid":549,"flag":""},
   {"pos":[-608.42,1053.35],"name":"Boss - Skarrsinger Karmelita","iconUrl":"boss.png","uid":550,"flag":""},
-  {"pos":[-609.62,1008.95],"name":"Boss - Crawfather","iconUrl":"boss.png","uid":551,"flag":""},
+  {"pos":[-599.7,1035.66],"name":"Boss - Crawfather","iconUrl":"boss.png","uid":551,"flag":""},
   {"pos":[-477.84,911.56],"name":"Boss - Disgraced Chef Lugoli","iconUrl":"boss.png","uid":552,"flag":""},
   {"pos":[-583.42,621.78],"name":"Boss - Moorwing","iconUrl":"boss.png","uid":553,"flag":""},
   {"pos":[-558.83,549.38],"name":"Boss - Widow","iconUrl":"boss.png","uid":554,"flag":"@,playerData.hasNeedolin,true"},
@@ -4488,11 +4502,16 @@
   {"pos":[-567.77,326.44],"name":"Mini-Boss - Rosary Pilgrim","iconUrl":"boss.png","flag":"@,playerData.defeatedShellwoodRosaryPilgrim,true","uid":816}
   ]},
   {"id":"arena","name":"Arenas", "group":"battles", "iconUrl":"arena.png", "list":[
+  {"pos":[-344.77,663.75],"name":"Arena - Inside for Sherma Wish","iconUrl":"arena.png","flag":"","uid":968},
   {"pos":[-239.77,753.31],"name":"Battle - ???","iconUrl":"arena.png","flag":"","uid":948},
   {"pos":[-254.04,604.25],"name":"Battle - ???","iconUrl":"arena.png","flag":"","uid":949},
   {"pos":[-272.63,671.56],"name":"Battle - ???","iconUrl":"arena.png","flag":"","acts":[3],"uid":950},
   {"pos":[-297.86,459.81],"name":"Battle - ???","iconUrl":"arena.png","flag":"","uid":951},
   {"pos":[-410.91,691.48],"name":"Battle - ???","iconUrl":"arena.png","flag":"","uid":952},
+  {"pos":[-495.78,1103.59],"name":"Battle - Lost Verdania","iconUrl":"arena.png","flag":"","uid":969},
+  {"pos":[-239.45,753.31],"name":"Battle - Vaultborn","iconUrl":"arena.png","flag":"","uid":970},
+  {"pos":[-215.17,548.59],"name":"Battle - High Halls arena","iconUrl":"arena.png","flag":"","uid":971},
+  {"pos":[-186.82,672.16],"name":"Battle - ???","iconUrl":"arena.png","flag":"","uid":972},
   {"pos":[-694,78.42],"name":"Battle - Wanderer's Chapel","iconUrl":"arena.png","uid":562,"flag":"@bool,Chapel_Wanderer,Battle Scene,true"},
   {"pos":[-695.4,357.6],"name":"Battle - Marrow #1","iconUrl":"arena.png","uid":563,"flag":"@bool,Bone_01,Collapser Small (1),true"},
   {"pos":[-623.61,431.99],"name":"Battle - Marrow #2","iconUrl":"arena.png","uid":564,"flag":"@bool,Bone_18,Battle Scene,true"},
@@ -4560,4 +4579,4 @@
   {"pos":[-697.8,429.69],"name":"Break Chain","iconUrl":"shortcut_down.png","flag":"@bool,Bone_02,Chain Drop Platform,true","uid":604}
   ]}
 ],"notes":[
-  ]}
+  ]}
